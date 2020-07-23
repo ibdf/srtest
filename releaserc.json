@@ -4,8 +4,11 @@
       "name": "master"
     },
     {
-      "name": "beta",
-      "channel": "beta"
+      "name": "beta"
+    },
+    {
+      "name": "alpha",
+      "channel": "alpha"
     }
   ],
   "repository": "git@github.com:ibdf/srtest.git",
