@@ -1,4 +1,13 @@
 {
+  "branches": [
+    {
+      "name": "master"
+    },
+    {
+      "name": "beta",
+      "channel": "beta"
+    }
+  ],
   "repository": "git@github.com:ibdf/srtest.git",
   "plugins": [
     ["@semantic-release/commit-analyzer", {
