@@ -10,6 +10,7 @@
       "name": "alpha"
     }
   ],
+  "dryRun": true,
   "repository": "git@github.com:ibdf/srtest.git",
   "plugins": [
     ["@semantic-release/commit-analyzer", {
