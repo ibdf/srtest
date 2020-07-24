@@ -34,7 +34,7 @@ jobs:
         # NOTE: This will likely need to be updated to support a production UI (npm run build:test vs npm run build)
     - name: npm install, lint, and build
       run: |
-        npm install --prod
+        npm install
         npm run build
 
     - name: Deploy to s3
