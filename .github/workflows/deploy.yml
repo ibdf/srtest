@@ -34,9 +34,8 @@ jobs:
         # NOTE: This will likely need to be updated to support a production UI (npm run build:test vs npm run build)
     - name: npm install, lint, and build
       run: |
-        npm install
-        npm run lint-nofix
-        npm run build:${{ steps.global-vars.outputs.npm_build_env }}
+        npm install --prod
+        npm run build
 
     - name: Deploy to s3
       env:
