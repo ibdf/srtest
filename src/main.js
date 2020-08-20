@@ -5,7 +5,7 @@ import store from './store'
 
 Vue.config.productionTip = false
 
-Vue.prototype.$version = '0.0.2'
+Vue.prototype.$version = '0.0.3'
 
 new Vue({
   router,
