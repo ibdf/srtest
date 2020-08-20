@@ -19,7 +19,7 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: blue;
+  background-color: red;
   min-height: 100vh;
   height: 100vh;
 }
